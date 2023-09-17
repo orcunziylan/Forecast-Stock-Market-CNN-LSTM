@@ -8,7 +8,7 @@ The goal of this project is to forecast stock market prices using a combination 
 
 1. **Data Collection**: Historical candlestick data for a given stock is downloaded using the `yfinance` library. This data includes the open, high, low, and close prices of the stock.
 
-2. **Data Preprocessing**: The downloaded data is preprocessed to create input-output pairs for training. For each week, a set of daily candlestick data is used as input, and the opening price of the next day is used as the target output.
+2. **Data Preprocessing**: The downloaded data is preprocessed to create input-output pairs for training. For each week, a set of daily candlestick data is used as input, and the opening price of the next week is used as the target output.
 
 3. **Candlestick Plotting**: The daily candlestick data is plotted using the `mpl_finance` library and saved as images. Each week's data is plotted as a candlestick figure to visualize the stock's price movement.
 
