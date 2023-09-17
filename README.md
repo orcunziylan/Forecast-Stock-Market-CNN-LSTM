@@ -1,6 +1,6 @@
 # Stock Market Forecasting using CNN and LSTM
 
-This project demonstrates the use of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks for forecasting stock market prices. The historical candlestick data of a stock is used to train a deep-learning model that predicts the next day's opening price relative to the previous day's closing price.
+This project demonstrates the use of Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks for forecasting stock market prices. The historical candlestick data of a stock is used to train a deep-learning model that predicts the next week's opening price relative to the previous week's closing prices.
 
 ## Project Overview
 
